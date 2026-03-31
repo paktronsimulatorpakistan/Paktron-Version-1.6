@@ -52,19 +52,20 @@ Quantum Flip
 Quantum Treasure Hunt
 Quantum Magic Spin
 BB84 Quantum Key Distribution
+
 📊 Advanced Visualization
-
 Rich visualization tools powered by multiple libraries:
-
 Histogram plots of measurement results
 Bloch sphere visualization (via QuTiP)
 Heatmaps and state distributions (Seaborn / Matplotlib)
 Interactive plots using Plotly
 Animated quantum state evolution (via ImageIO)
+
 🤖 Quantum Machine Learning Tools
 Variational circuits using PennyLane
 Parameterized quantum models
 Visualization of training landscapes and circuit behavior
+
 ⚙️ Backend System
 Pluggable backend architecture
 Built-in:
@@ -75,9 +76,6 @@ Extensible for custom simulators or hardware integration
 📦 Installation
 pip install pktron
 
-Or from source:
-
-git clone https://github.com/your-repo/pktron.git
 cd pktron
 pip install .
 🔧 Dependencies
@@ -90,6 +88,7 @@ plotly
 seaborn
 qutip
 streamlit (optional for apps)
+
 🧪 Example Usage
 from pktron import QuantumCircuit, h, cnot
 
@@ -111,25 +110,27 @@ qc.plot_histogram()
 🤖 Quantum machine learning experiments
 📊 Visualization of quantum states
 🧪 Research simulations
+
 🌟 Design Philosophy
 Simplicity first — easy for beginners
 Modularity — extend every component
 Visualization-driven learning
 Hybrid-ready — integrates classical + quantum workflows
+
 🔮 Future Roadmap
 Real quantum hardware support (IBM Q / AWS Braket)
 Noise modeling and error correction
 GPU acceleration
 Web-based dashboards (Streamlit integration)
 Circuit optimization tools
-🤝 Contributing
 
-Contributions are welcome! Feel free to:
+🤝 Contributing
+Contributions are welcome! Feel free to: info@thecetqap.com
 
 Submit issues
 Propose new algorithms
 Improve visualizations
 Extend backend support
-📜 License
 
+📜 License
 MIT License
